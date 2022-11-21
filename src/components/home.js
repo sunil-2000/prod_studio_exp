@@ -2,7 +2,6 @@ import { Component } from "react";
 import Nav from "./nav";
 import classes from "../styles.module.css";
 import Wave from "react-wavify";
-import logo from "../resources/logo_white.png";
 import { Button } from "react-bootstrap";
 
 class Home extends Component {
@@ -13,9 +12,6 @@ class Home extends Component {
   render() {
     return (
       <div className={classes.home}>
-        <div className={classes.logo}>
-          <img src={logo}></img>
-        </div>
         <div className={classes.nav}>
           <Nav></Nav>
         </div>
@@ -37,7 +33,6 @@ class Home extends Component {
           className={classes.button}
           color='primary'
           size='lg'
-          style={{ fontSize: "36px" }}
         >
           Sign up! 👀
         </Button>
