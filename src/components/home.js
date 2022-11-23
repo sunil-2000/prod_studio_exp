@@ -13,8 +13,8 @@ class Home extends Component {
   render() {
     return (
       <div className={classes.home}>
-        <div className={classes.logo}>
-          <img src={logo}></img>
+        <div>
+          <img className={classes.logo} src={logo}></img>
         </div>
         <div className={classes.nav}>
           <Nav></Nav>
