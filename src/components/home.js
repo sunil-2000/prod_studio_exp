@@ -4,7 +4,7 @@ import classes from "../styles.module.css";
 import Wave from "react-wavify";
 import logo from "../resources/logo_white.png";
 import { Button } from "react-bootstrap";
-import useAnalyticsEventTracker from './useAnalyticsEventTracker';
+import useAnalyticsEventTracker from '../useAnalyticsEventTracker';
 
 class Home extends Component {
   constructor(props) {
