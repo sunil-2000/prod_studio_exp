@@ -2,7 +2,7 @@
   "name": "experiment",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sunil-2000.github.io/prod_studio_exp/",
+  "homepage": "https://sunil-2000.github.io/prod_studio_exp",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
