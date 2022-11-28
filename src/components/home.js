@@ -3,8 +3,7 @@ import Nav from "./nav";
 import classes from "../styles.module.css";
 import Wave from "react-wavify";
 import logo from "../resources/logo_white.png";
-import { Button } from "react-bootstrap";
-import useAnalyticsEventTracker from '../useAnalyticsEventTracker';
+import SignUp from "./signup"
 
 class Home extends Component {
   constructor(props) {
@@ -12,7 +11,6 @@ class Home extends Component {
   }
 
   render() {
-    const gaEventTracker = useAnalyticsEventTracker('Sign up');
     return (
       <div className={classes.home}>
         <div>
@@ -35,15 +33,7 @@ class Home extends Component {
             }}
           />
         </div>
-        <Button
-          className={classes.button}
-          color='primary'
-          size='lg'
-          style={{ fontSize: "36px" }}
-          onClick={()=>gaEventTracker('sign up')}
-        >
-          Sign up! 👀
-        </Button>
+        <SignUp></SignUp>
       </div>
     );
   }
